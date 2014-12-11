@@ -1,6 +1,7 @@
 package ru.ncedu.sa4ek;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -9,8 +10,9 @@ import java.io.InputStreamReader;
  */
 public class HRMain {
     public static void main(String[] args) throws IOException {
-        XMLWorker worker = new XMLWorker("file.xml");
+        XMLWorker worker = new XMLWorker(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "file.xml");
         worker.printXML("");
+
         System.out.println("Actions: find <name>, add, modify <id>, delete <id>, exit");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while(true) {

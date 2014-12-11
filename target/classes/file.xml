@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><employee>
+	<empl>
+		<empl_number>1</empl_number>
+		<empl_name>Sergei</empl_name>
+		<empl_position>JD</empl_position>
+		<office>IT</office>
+		<tel>8-916-123-45-67</tel>
+		<salary>50000.0</salary>
+	</empl>
+	<empl>
+		<empl_number>2</empl_number>
+		<empl_name>Pete</empl_name>
+		<empl_position>Lead</empl_position>
+		<office>HR</office>
+		<tel>8-926-123-45-65</tel>
+		<salary>77000.0</salary>
+	</empl>
+	
+<empl><empl_number>6</empl_number><empl_name>Kate</empl_name><empl_position>stage</empl_position><office>HR</office><tel>8-926-123-98-65</tel><salary>13000.55</salary></empl></employee>
